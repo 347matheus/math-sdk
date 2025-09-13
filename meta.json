@@ -1,0 +1,7 @@
+{
+  "name": "Cash Cow",
+  "version": "1.0.0",
+  "entry_point": "games/cash_cow/simulate_game.py",
+  "description": "Jogo de slot com temática de fazenda e bônus especial Golden Cow Hunt. RTP balanceado em torno de 95%.",
+  "author": "Matheus Oliveira"
+}

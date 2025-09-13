@@ -1,22 +1,41 @@
-# Stake Engine Math SDK
+# 🐄 Cash Cow
 
-Welcome to [Stake Engine Math SDK](https://engine.stake.com/)!
+**Cash Cow** é um jogo de slot com temática de fazenda, que utiliza um sistema de rodadas normais e um bônus especial chamado **Golden Cow Hunt**. O jogo foi desenvolvido para simular resultados com base em parâmetros ajustáveis, mantendo um RTP (Retorno ao Jogador) em torno de **95%**.
 
-The Math SDK is a Python-based engine for defining game rules, simulating outcomes, and optimizing win distributions. It generates all necessary backend and configuration files, lookup tables, and simulation results.
-   
+## 🎯 Características do Jogo
 
-For technical details [view the docs](https://stakeengine.github.io/math-sdk/)
+- 🎰 5 rolos × 5 linhas (layout de grade)
+- 📏 15 linhas de pagamento
+- 🍎 Símbolos: Cenoura, Maçã, Uvas, Ovos, Balde de Leite, Fazendeira, Fazendeiro, Vaca Dourada
+- 💰 Símbolo especial: Wild
+- 🏆 Bônus: **Golden Cow Hunt** com multiplicadores acumulativos
 
+## ⚙️ Estrutura de Pastas
 
-# Installation
- 
-This repository requires Python3 (version >= 3.12), along with the PIP package installer.
-If the included optimization algorithm is being used, Rust/Cargo will also need to be installed.
-
-It is recommended to use [Make](https://www.gnu.org/software/make/) and setup the engine by running:
-```sh
-make setup
+```
+cash-cow-math/
+├── config/
+│   └── config.py              # Base para o GameConfig
+├── games/
+│   └── cash_cow/
+│       ├── game_config.py     # Regras e lógica do jogo
+│       └── simulate_game.py   # Simulador para testes de RTP
+├── meta.json                  # Descrição para o Stake Engine
+└── README.md                  # Este documento
 ```
 
-Alternatively, visit our [Setup and Installation page](https://stakeengine.github.io/math-sdk/math_docs/general_overview/) for more details.
+## ▶️ Como rodar localmente
 
+```bash
+PYTHONPATH="src" python3 games/cash_cow/simulate_game.py
+```
+
+> Certifique-se de que está usando Python 3.8 ou superior.
+
+## 📈 RTP
+
+O jogo está calibrado para manter o RTP entre **94% e 96%**, com variações pequenas por rodada.
+
+---
+
+Desenvolvido por Matheus Oliveira • 2025
