@@ -1,6 +1,6 @@
-from src.state.state_conditions import Conditions
-from src.calculations.tumble import Tumble
-from src.events.events import (
+from state.state_conditions import Conditions
+from calculations.tumble import Tumble
+from events.events import (
     win_info_event,
     freespin_end_event,
     tumble_board_event,

@@ -2,7 +2,7 @@
     All functions return [final_win_amount], [applied multiplier]"""
 
 from typing import List, Dict
-from src.calculations.board import Board
+from calculations.board import Board
 
 
 def apply_mult(

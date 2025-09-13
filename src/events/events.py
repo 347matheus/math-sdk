@@ -1,7 +1,7 @@
 """Defines reusable events"""
 
 from copy import deepcopy
-from src.events.event_constants import EventConstants
+from events.event_constants import EventConstants
 
 
 def json_ready_sym(symbol: object, special_attributes: list = None):

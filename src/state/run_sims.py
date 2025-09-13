@@ -7,7 +7,7 @@ import shutil
 import asyncio
 from typing import Dict
 
-from src.write_data.write_data import output_lookup_and_force_files
+from write_data.write_data import output_lookup_and_force_files
 
 
 def create_books(

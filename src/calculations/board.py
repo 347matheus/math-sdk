@@ -2,9 +2,9 @@
 
 import random
 from typing import List
-from src.state.state import GeneralGameState
-from src.calculations.statistics import get_random_outcome
-from src.events.events import reveal_event
+from state.state import GeneralGameState
+from calculations.statistics import get_random_outcome
+from events.events import reveal_event
 
 
 class Board(GeneralGameState):

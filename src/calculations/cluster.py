@@ -1,10 +1,10 @@
 from collections import defaultdict
 from abc import ABC
 from typing import List, Dict
-from src.calculations.board import Board
-from src.calculations.symbol import Symbol
-from src.config.config import Config
-from src.wins.multiplier_strategy import apply_mult
+from calculations.board import Board
+from calculations.symbol import Symbol
+from config.config import Config
+from wins.multiplier_strategy import apply_mult
 
 
 class Cluster:

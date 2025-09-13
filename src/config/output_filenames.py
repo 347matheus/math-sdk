@@ -1,7 +1,7 @@
 import os
 from collections import defaultdict
 
-from src.config.paths import PATH_TO_GAMES
+from config.paths import PATH_TO_GAMES
 
 
 class OutputFiles:

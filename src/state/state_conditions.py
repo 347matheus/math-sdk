@@ -1,4 +1,4 @@
-from src.state.state import GeneralGameState
+from state.state import GeneralGameState
 
 
 class Conditions(GeneralGameState):

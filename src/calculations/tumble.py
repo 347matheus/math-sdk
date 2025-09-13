@@ -1,6 +1,6 @@
 from copy import copy
-from src.events.events import set_win_event, set_total_event
-from src.calculations.board import Board
+from events.events import set_win_event, set_total_event
+from calculations.board import Board
 
 
 class Tumble(Board):

@@ -1,10 +1,10 @@
 """Ways wins executables/calculations."""
 
 from collections import defaultdict
-from src.calculations.symbol import Symbol
-from src.config.config import Config
-from src.wins.multiplier_strategy import apply_mult
-from src.events.events import (
+from calculations.symbol import Symbol
+from config.config import Config
+from wins.multiplier_strategy import apply_mult
+from events.events import (
     win_info_event,
     set_win_event,
     set_total_event,

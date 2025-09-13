@@ -3,12 +3,12 @@ from abc import ABC, abstractmethod
 from warnings import warn
 import random
 
-# from src.config.config import BetMode
-from src.wins.win_manager import WinManager
-from src.calculations.symbol import SymbolStorage
-from src.config.output_filenames import OutputFiles
-from src.state.books import Book
-from src.write_data.write_data import (
+# from config.config import BetMode
+from wins.win_manager import WinManager
+from calculations.symbol import SymbolStorage
+from config.output_filenames import OutputFiles
+from state.books import Book
+from write_data.write_data import (
     print_recorded_wins,
     make_lookup_tables,
     write_json,

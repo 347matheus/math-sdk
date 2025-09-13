@@ -2,8 +2,8 @@
 
 from typing import List, Dict
 from collections import defaultdict
-from src.calculations.symbol import Symbol
-from src.config.config import Config
+from calculations.symbol import Symbol
+from config.config import Config
 
 
 class Scatter:

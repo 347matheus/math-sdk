@@ -1,4 +1,4 @@
-from src.config.constants import *
+from config.constants import *
 from typing import List
 
 
