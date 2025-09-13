@@ -1,0 +1,33 @@
+{
+  "name": "Cash Cow",
+  "type": "slot",
+  "version": "1.0.0",
+  "entry": "main.js",
+  "metadata": {
+    "rtp": 0.947,
+    "volatility": "medium-high",
+    "paylines": 10,
+    "reels": 5,
+    "symbols": [
+      "cenoura",
+      "maçã",
+      "uvas",
+      "ovos",
+      "balde-de-leite",
+      "fazendeira",
+      "fazendeiro",
+      "vaca-dourada"
+    ],
+    "bonus_feature": {
+      "name": "Golden Cow Hunt",
+      "type": "duel",
+      "trigger_chance": "medium",
+      "description": "Duelo especial com a vaca dourada. Se vencer, recebe multiplicadores de até 100x."
+    },
+    "multipliers": {
+      "base_game": [1, 2, 5, 10, 15],
+      "bonus_game": [10, 20, 50, 100]
+    }
+  }
+}
+
